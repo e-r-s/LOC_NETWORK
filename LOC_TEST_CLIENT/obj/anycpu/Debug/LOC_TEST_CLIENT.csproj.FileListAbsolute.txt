@@ -1,0 +1,5 @@
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_TEST_CLIENT/bin/Debug/LOC_TEST_CLIENT.exe
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_TEST_CLIENT/bin/Debug/LOC_TEST_CLIENT.pdb
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_TEST_CLIENT/obj/anycpu/Debug/LOC_TEST_CLIENT.csproj.CoreCompileInputs.cache
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_TEST_CLIENT/obj/anycpu/Debug/LOC_TEST_CLIENT.exe
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_TEST_CLIENT/obj/anycpu/Debug/LOC_TEST_CLIENT.pdb

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{53E2571C-41A0-4034-917B-77A7659ADCE5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LOC_NETWORK</RootNamespace>
+    <AssemblyName>LOC_NETWORK</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="LiteNetLib">
+      <HintPath>LiteNetLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Json" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2020.3.25f1\Unity.app\Contents\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2020.3.25f1\Unity.app\Contents\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+    <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NetworkCommands\Walk.cs" />
+    <Compile Include="NetworkCommands\BaseNetworkCommand.cs" />
+    <Compile Include="GameItems\ItemLocationHelper.cs" />
+    <Compile Include="GameItems\GameManager.cs" />
+    <Compile Include="Test\UDPListener.cs" />
+    <Compile Include="Test\UDPer.cs" />
+    <Compile Include="Test\TestNetwork.cs" />
+    <Compile Include="Test\UDPBuiltIn.cs" />
+    <Compile Include="Networking\ConnectedUser.cs" />
+    <Compile Include="Networking\ConnectedServer.cs" />
+    <Compile Include="Networking\ConnectedUserCollection.cs" />
+    <Compile Include="LOCLiteNetLib\UDPServer.cs" />
+    <Compile Include="GameItems\Base\ItemInfluence.cs" />
+    <Compile Include="GameItems\Base\BaseItem.cs" />
+    <Compile Include="GameItems\Base\Planet.cs" />
+    <Compile Include="GameItems\Base\Region.cs" />
+    <Compile Include="GameItems\Base\Chunk.cs" />
+    <Compile Include="Networking\NetworkManager.cs" />
+    <Compile Include="Networking\HTTPServer.cs" />
+    <Compile Include="Data\CacheManager.cs" />
+    <Compile Include="GameItems\Vegetation\Tree.cs" />
+    <Compile Include="GameItems\Inventory.cs" />
+    <Compile Include="GameItems\InventoryItem.cs" />
+    <Compile Include="Networking\LoggedInUser.cs" />
+    <Compile Include="GameItems\Base\BaseItemLocation.cs" />
+    <Compile Include="GameItems\Elements\AllBaseElements.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Acid.cs" />
+    <Compile Include="GameItems\Elements\AllElements\AnimalFood.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Blood.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Carbohydrate.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Carbon.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Fat.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Hydrogen.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Iron.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Nitrogen.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Oxygen.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Protein.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Silver.cs" />
+    <Compile Include="GameItems\Elements\AllElements\VegetationFood.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Vinegar.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Vitamin.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Waste.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Water.cs" />
+    <Compile Include="GameItems\Elements\AllElements\Wood.cs" />
+    <Compile Include="GameItems\Elements\Element.cs" />
+    <Compile Include="GameItems\Elements\ElementContent.cs" />
+    <Compile Include="GameItems\Elements\ElementType.cs" />
+    <Compile Include="GameItems\ItemSettings\AllItemSettings.cs" />
+    <Compile Include="GameItems\ItemSettings\Creature\BaseCreature.cs" />
+    <Compile Include="GameItems\ItemSettings\Creature\BasicHorse.cs" />
+    <Compile Include="GameItems\ItemSettings\Creature\NormalPlayer.cs" />
+    <Compile Include="GameItems\ItemSettings\ItemSettings.cs" />
+    <Compile Include="GameItems\ItemSettings\Vegetation\BaseVegetation.cs" />
+    <Compile Include="GameItems\ItemSettings\Vegetation\PineTree.cs" />
+    <Compile Include="GameItems\ItemSettings\Vegetation\Tree_Pine_Huge.cs" />
+    <Compile Include="GameItems\Base\ItemLocation.cs" />
+    <Compile Include="GameItems\Base\BasePlace.cs" />
+    <Compile Include="GameItems\Base\BaseCelestial.cs" />
+    <Compile Include="GameItems\Base\BaseNonLiving.cs" />
+    <Compile Include="GameItems\Base\BaseLiving.cs" />
+    <Compile Include="GameItems\Vegetation\BaseVegetation.cs" />
+    <Compile Include="GameItems\Creature\BaseCreature.cs" />
+    <Compile Include="GameItems\Creature\BaseHumanoid.cs" />
+    <Compile Include="GameItems\Creature\Player.cs" />
+    <Compile Include="GameItems\GameManager.CommandReceiver.cs" />
+    <Compile Include="GameItems\Vehicle\BaseVehicle.cs" />
+    <Compile Include="GameItems\GameManager.CommandCollector.cs" />
+    <Compile Include="Test\ServerTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NetworkCommands\" />
+    <Folder Include="GameItems\" />
+    <Folder Include="Test\" />
+    <Folder Include="Networking\" />
+    <Folder Include="LOCLiteNetLib\" />
+    <Folder Include="GameItems\Base\" />
+    <Folder Include="Data\" />
+    <Folder Include="GameItems\Vegetation\" />
+    <Folder Include="GameItems\Elements\" />
+    <Folder Include="GameItems\ItemSettings\" />
+    <Folder Include="GameItems\Creature\" />
+    <Folder Include="GameItems\Vehicle\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LiteNetLib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LOC_SHARED\LOC_SHARED.csproj">
+      <Project>{76BA039C-1277-403C-A3D3-3F636AB4D912}</Project>
+      <Name>LOC_SHARED</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

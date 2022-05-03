@@ -1,0 +1,91 @@
+﻿<Properties StartupConfiguration="{53E2571C-41A0-4034-917B-77A7659ADCE5}|Default">
+  <MonoDevelop.Ide.ItemProperties.LOC__NETWORK PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LOC__SHARED FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LOC_SHARED/GameItems/TypesAndConstants/ItemIds.cs">
+    <Files>
+      <File FileName="LOC_NETWORK/Program.cs" Line="28" Column="13" />
+      <File FileName="LOC_NETWORK/UserClient.cs" />
+      <File FileName="LOC_NETWORK/ServerConnection.cs" />
+      <File FileName="LOC_NETWORK/UserClientCollection.cs" />
+      <File FileName="LOC_NETWORK/NetworkCommands/Walk.cs" />
+      <File FileName="LOC_NETWORK/NetworkCommands/BaseNetworkCommand.cs" />
+      <File FileName="LOC_NETWORK/GameItems/ItemLocation.cs" />
+      <File FileName="LOC_NETWORK/GameItems/ItemLocationHelper.cs" />
+      <File FileName="LOC_NETWORK/GameItems/GameManager.cs" />
+      <File FileName="LOC_NETWORK/GameItems/LocationRegion.cs" />
+      <File FileName="LOC_NETWORK/GameItems/LocationChunk.cs" />
+      <File FileName="LOC_NETWORK/Test/UDPListener.cs" />
+      <File FileName="LOC_NETWORK/Test/UDPer.cs" />
+      <File FileName="LOC_NETWORK/Networking/ConnectedUser.cs" />
+      <File FileName="LOC_NETWORK/Networking/ConnectedServer.cs" />
+      <File FileName="LOC_NETWORK/Networking/ConnectedUserCollection.cs" />
+      <File FileName="LOC_NETWORK/LOCLiteNetLib/UDPClient.cs" />
+      <File FileName="LOC_NETWORK/LOCLiteNetLib/UDPServer.cs" />
+      <File FileName="LOC_NETWORK/Util/NetworkHellper.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/ElementType.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/ElementContent.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/ItemInfluence.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Water.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/AllBaseElements.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Oxygen.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Hydrogen.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/ItemSettings/Vegetation/PineTree.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Element.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Vinegar.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Acid.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Carbon.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Nitrogen.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Waste.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Wood.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/ItemSettings/Vegetation/BaseVegetation.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/ItemSettings/Creature/BaseCreature.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Protein.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Carbohydrate.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Vitamin.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Fat.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Iron.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/AnimalFood.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Elements/Silver.cs" />
+      <File FileName="LOC_NETWORK/Util/Logger.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Player.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Planet.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/BaseOfAll.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Region.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/Chunk.cs" />
+      <File FileName="LOC_NETWORK/GameItems/Base/BaseLocation.cs" />
+      <File FileName="LOC_NETWORK/Networking/NetworkManager.cs" />
+      <File FileName="LOC_NETWORK/NetworkCommands/NetworkCommandType.cs" />
+      <File FileName="LOC_NETWORK/Test/TestNetwork.cs" />
+      <File FileName="LOC_NETWORK/CustomSocket/UDPClient.cs" />
+      <File FileName="LOC_NETWORK/CustomSocket/UDPServer.cs" />
+      <File FileName="LOC_NETWORK/Networking/HTTPServer.cs" />
+      <File FileName="LOC_SHARED/Class1.cs" Line="1" Column="1" />
+      <File FileName="LOC_SHARED/GameItems/TypesAndConstants/ItemIds.cs" Line="6" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LOC_NETWORK" expanded="True">
+            <Node name="LOC_NETWORK" expanded="True" />
+            <Node name="LOC_SHARED" expanded="True">
+              <Node name="GameItems" expanded="True">
+                <Node name="TypesAndConstants" expanded="True">
+                  <Node name="ItemIds.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>LiteNetLib/LiteNetLib.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

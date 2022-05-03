@@ -1,0 +1,9 @@
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/bin/Debug/netcoreapp1.1/LOC_SHARED.deps.json
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/bin/Debug/netcoreapp1.1/LOC_SHARED.dll
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/bin/Debug/netcoreapp1.1/LOC_SHARED.pdb
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/obj/Debug/netcoreapp1.1/LOC_SHARED.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/obj/Debug/netcoreapp1.1/LOC_SHARED.AssemblyInfoInputs.cache
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/obj/Debug/netcoreapp1.1/LOC_SHARED.AssemblyInfo.cs
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/obj/Debug/netcoreapp1.1/LOC_SHARED.csproj.CoreCompileInputs.cache
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/obj/Debug/netcoreapp1.1/LOC_SHARED.dll
+/Users/ersinceylan/projects/LOC_NETWORK/LOC_SHARED/obj/Debug/netcoreapp1.1/LOC_SHARED.pdb

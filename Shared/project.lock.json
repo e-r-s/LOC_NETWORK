@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v1.5": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETStandard,Version=v1.5": []
+  },
+  "packageFolders": {
+    "/Users/ersinceylan/.nuget/packages/": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "/Users/ersinceylan/projects/LOC_NETWORK/Shared/Shared.csproj",
+      "projectName": "Shared",
+      "projectPath": "/Users/ersinceylan/projects/LOC_NETWORK/Shared/Shared.csproj",
+      "projectJsonPath": "/Users/ersinceylan/projects/LOC_NETWORK/Shared/project.json",
+      "packagesPath": "/Users/ersinceylan/.nuget/packages/",
+      "projectStyle": "ProjectJson",
+      "configFilePaths": [
+        "/Users/ersinceylan/.config/NuGet/NuGet.Config"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      }
+    },
+    "frameworks": {
+      "netstandard1.5": {}
+    }
+  }
+}

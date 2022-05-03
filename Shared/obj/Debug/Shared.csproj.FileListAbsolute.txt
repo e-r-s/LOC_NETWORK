@@ -1,0 +1,1 @@
+/Users/ersinceylan/projects/LOC_NETWORK/Shared/obj/Debug/Shared.csproj.CoreCompileInputs.cache

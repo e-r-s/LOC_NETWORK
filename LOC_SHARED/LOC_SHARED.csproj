@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76BA039C-1277-403C-A3D3-3F636AB4D912}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LOC_SHARED</RootNamespace>
+    <AssemblyName>LOC_SHARED</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="LiteNetLib">
+      <HintPath>..\LOC_NETWORK\LiteNetLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Json" />
+    <Reference Include="System.Json.Microsoft" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2020.3.25f1\Unity.app\Contents\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2020.3.25f1\Unity.app\Contents\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2020.3.25f1\Unity.app\Contents\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2020.3.25f1\Unity.app\Contents\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2020.3.25f1\Unity.app\Contents\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Applications\Unity\Hub\Editor\2020.3.25f1\Unity.app\Contents\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MyClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LIB\GameItems\TypesAndConstants\ItemIds.cs" />
+    <Compile Include="LIB\NetworkItems\ApiResult.cs" />
+    <Compile Include="LIB\NetworkItems\ConnectedServer.cs" />
+    <Compile Include="LIB\NetworkItems\EmptyClass.cs" />
+    <Compile Include="LIB\NetworkItems\NetworkManager.cs" />
+    <Compile Include="LIB\NetworkItems\PlayerLoginResult.cs" />
+    <Compile Include="LIB\NetworkItems\UdpCllient.cs" />
+    <Compile Include="LIB\Util\Logger.cs" />
+    <Compile Include="LIB\Util\NetworkHellper.cs" />
+    <Compile Include="LIB\NetworkItems\ClientNetworkManager.cs" />
+    <Compile Include="LIB\NetworkItems\Packet.cs" />
+    <Compile Include="LIB\NetworkItems\EncryptionKeys.cs" />
+    <Compile Include="LIB\NetworkItems\EncryptionKeyCollection.cs" />
+    <Compile Include="LIB\NetworkItems\PacketManager.cs" />
+    <Compile Include="LIB\NetworkCommands\PlayerLocationChanged.cs" />
+    <Compile Include="LIB\NetworkCommands\Base\AllNetworkCommands.cs" />
+    <Compile Include="LIB\NetworkCommands\Base\BaseNetworkCommand.cs" />
+    <Compile Include="LIB\NetworkCommands\CommandProcessed.cs" />
+    <Compile Include="LIB\NetworkCommands\Base\NetworkCommandType.cs" />
+    <Compile Include="LIB\NetworkCommands\Base\NetworkCommand.cs" />
+    <Compile Include="LIB\NetworkCommands\PlayerUpdate.cs" />
+    <Compile Include="LIB\NetworkCommands\Base\PlayerPressingKeyType.cs" />
+    <Compile Include="LIB\NetworkCommands\MultipleData.cs" />
+    <Compile Include="LIB\NetworkCommands\Base\RawCommandData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LIB\" />
+    <Folder Include="LIB\GameItems\" />
+    <Folder Include="LIB\NetworkItems\" />
+    <Folder Include="LIB\Util\" />
+    <Folder Include="LIB\NetworkCommands\" />
+    <Folder Include="LIB\NetworkCommands\Base\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
